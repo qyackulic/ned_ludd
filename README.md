@@ -1,5 +1,7 @@
 <header>
+<h1>
     <title> About Ned Ludd</title>
+</h1>
 </header>   
     <nav>
         <li>
