@@ -1,0 +1,23 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(47, 90, 218);
+    padding: 20x;
+}
+nav {
+    font-family: 'franklin gothic medium';
+    background-color: black;
+    font-size: medium;
+    font-style: oblique;
+    color: rgb(10, 198, 255);
+}
+li {
+    tab-size: 20ex;
+}
+h1 {
+    color: hotpink;
+    background-color: rgb(48, 132, 165);
+} 
+h2 {
+    color: rgb(48, 132, 165);
+    background-color: hotpink;
+}
