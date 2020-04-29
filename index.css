@@ -10,8 +10,8 @@ nav {
     font-style: oblique;
     color: rgb(10, 198, 255);
 }
-li {
-    tab-size: 20ex;
+nav section ul {
+   tab-size: 20ex;
 }
 h1 {
     color: hotpink;
