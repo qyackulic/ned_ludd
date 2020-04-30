@@ -3,15 +3,15 @@ body {
     background-color: rgb(47, 90, 218);
     padding: 20x;
 }
-nav {
-    font-family: 'franklin gothic medium';
+
+header ul li {
+    display: inline;
     background-color: black;
-    font-size: medium;
-    font-style: oblique;
-    color: rgb(10, 198, 255);
-}
-nav section ul {
-   tab-size: 20ex;
+    border-style: double;
+    font-size: large;
+    font-family: 'franklin gothic medium';
+    
+
 }
 h1 {
     color: hotpink;
@@ -20,4 +20,31 @@ h1 {
 h2 {
     color: rgb(48, 132, 165);
     background-color: hotpink;
+}
+p {
+    background-color: rgb(48, 132, 165);
+    border-width: medium;
+    border-style: ridge;
+    border-color: white;
+
+}
+
+p2 ul {
+    background-color: rgb(48, 132, 165);
+    border-width: medium;
+    border-style: ridge;
+    border-color: white;
+}
+figure {
+    background-color: rgb(48, 132, 165);
+    border-width: medium;
+    border-style: ridge;
+    border-color: white;
+}
+
+footer {
+    background-color: rgb(48, 132, 165);
+    border-width: medium;
+    border-style: ridge;
+    border-color: white;
 }
