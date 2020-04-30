@@ -6,8 +6,10 @@ body {
 
 header ul li {
     display: inline;
-    background-color: black;
-    border-style: double;
+    background-color: rgb(52, 157, 255);
+    border-style: solid;
+    border-color: rgb(79, 99, 189);
+    border-spacing: 30mm;
     font-size: larger;
     font-family: 'franklin gothic medium';
     

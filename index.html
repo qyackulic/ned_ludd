@@ -28,6 +28,26 @@
 </nav>
 <body>
 <h2> Brief Story </h2>
+<p3>But First:</p3>
+<button onclick="HaveYou()">Do You Know What A Luddite Is?</button>
+<P id="demo"></p>
+<script>
+    function HaveYou() {
+        var text;
+        var user = prompt ("Do You Know What A Luddite Is?", "Answer Here");
+            switch (user) { 
+                case "Yes":
+                    text = "The Internet is suprised.  Please enjoy the website."; 
+                    break;
+                case "No":
+                    text = "That's fairly common.  Please enjoy the website!";
+                    break;
+                default:
+                    text = "You're at the right place, then!"
+            }
+            document.getElementById("demo").innerHTML = text
+            }
+</script>
     <p>
     Nedd  Ludd is the proginator of the Luddite Movement.  Born in [xxsx], Ludd lived near the Nottingham Woods, made famous by Robin Hood, the so-called thief who purloined the purses of opulent English-gentry folk, giving them, in turn, to disheveled countrymen, those with a paucity of pecuinary possessions.  Ludd worked in a factory.  Like Hood, Ludd was somewhat of a reaction to his times.  Instead of fighting austere income inequality, like Hood, Ludd organized workers against the automization of factories.  
     </p>
