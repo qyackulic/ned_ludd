@@ -8,7 +8,7 @@ header ul li {
     display: inline;
     background-color: black;
     border-style: double;
-    font-size: large;
+    font-size: larger;
     font-family: 'franklin gothic medium';
     
 
@@ -26,7 +26,7 @@ p {
     border-width: medium;
     border-style: ridge;
     border-color: white;
-
+    font-size: large;
 }
 
 p2 ul {
@@ -34,12 +34,14 @@ p2 ul {
     border-width: medium;
     border-style: ridge;
     border-color: white;
+    font-size: large;
 }
 figure {
     background-color: rgb(48, 132, 165);
     border-width: medium;
     border-style: ridge;
     border-color: white;
+    font-size: large;
 }
 
 footer {
@@ -47,4 +49,5 @@ footer {
     border-width: medium;
     border-style: ridge;
     border-color: white;
+    font-size: large;
 }
