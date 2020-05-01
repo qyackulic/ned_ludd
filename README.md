@@ -4,7 +4,11 @@
 - I want to add '<border>' to the various elements to make it look more presentable.  I also want to, generally, make the website look better.  
 - I would also like to add three or more dynamic functions to the website. 
 ## As of 4.30:
-[] Dynamic elements 
-[] added borders
-[] the website looks better than yesterday, in my opinion
+[x] Dynamic elements 
+[x] added borders
+[x] the website looks better than yesterday, in my opinion
 - what else can I work on? 
+[] Module 7
+## For 5.1.20:
+[] module 7
+[] reword old modules
