@@ -33,17 +33,19 @@ function HaveYou() {
 HaveYou();
 
 function whichImg() {
-    var item;
-    var user = prompt ("Placard or Ned?", "Answer Here");
-        swith (user) {
-            case "Placard":
-                item = "<img src="poster.jpg">";
-                break;
-            case "Ned":
-                item = "<img src="Ned_Ludd.jpg">";
-                break;
-            default:
-                item = "<img src="factory_workers.jpg">";
+    var oneofthree = [
+    '<img src="Ned.jpg">',
+    '<img src="Sign.jpg">',
+    '<img src="worker.jpg">',
+    ];
+    var displayImg = '';
+    var imagenum = 0;
+    do {
+        imagenum = prompt("Enter a number 1 to 3 for a different image");
+    } while (imagenum>0|| imagenum<4|| !Number.isIntiger(+imagenum));
+    for (i=0; i<imagenum;i++){
+        displayImg += (i+1)+'...'+ oneofthree[i]+"<br>";
         }
-        document.getElementById("image").innerHTML=item
+        document.getElementById("whichimage").innerHTML=displayImg;
+        document.getElementById("imagenum").innerHTML=imageNum ;
     }
