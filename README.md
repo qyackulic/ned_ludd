@@ -12,3 +12,6 @@
 ## For 5.1.20:
 [] module 7
 [] reword old modules
+## 5.2.20 Notes
+- Image source for Poster: https://medium.com/@Smallbizlabs/lessons-from-the-luddites-a98421d64fbb 
+- source for Ned_ludd: https://commons.wikimedia.org/wiki/File:Luddite.jpg 
