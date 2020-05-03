@@ -32,3 +32,18 @@ function HaveYou() {
 
 HaveYou();
 
+function whichImg() {
+    var item;
+    var user = prompt ("Placard or Ned?", "Answer Here");
+        swith (user) {
+            case "Placard":
+                item = "<img src="poster.jpg">";
+                break;
+            case "Ned":
+                item = "<img src="Ned_Ludd.jpg">";
+                break;
+            default:
+                item = "<img src="factory_workers.jpg">";
+        }
+        document.getElementById("image").innerHTML=item
+    }
