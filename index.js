@@ -32,20 +32,31 @@ function HaveYou() {
 
 HaveYou();
 
-function whichImg() {
-    var oneofthree = [
-    '<img src="Ned.jpg">',
-    '<img src="Sign.jpg">',
-    '<img src="worker.jpg">',
-    ];
-    var displayImg = '';
-    var imagenum = 0;
-    do {
-        imagenum = prompt("Enter a number 1 to 3 for a different image");
-    } while (imagenum>0|| imagenum<4|| !Number.isIntiger(+imagenum));
-    for (i=0; i<imagenum;i++){
-        displayImg += (i+1)+'...'+ oneofthree[i]+"<br>";
-        }
-        document.getElementById("whichimage").innerHTML=displayImg;
-        document.getElementById("imagenum").innerHTML=imageNum ;
-    }
+function NedLudd(ned, ludd){
+    var total = ned + ludd;
+    console.log(total);
+    return total;
+}
+
+var Luddite = NedLudd('ned','ludd');
+
+console.log(Luddite);
+
+
+// function whichImg() {
+//     var oneofthree = [
+//     '<img src="Ned.jpg">',
+//     '<img src="Sign.jpg">',
+//     '<img src="worker.jpg">',
+//     ];
+//     var displayImg = '';
+//     var imagenum = 0;
+//     do {
+//         imagenum = prompt("Enter a number 1 to 3 for a different image");
+//     } while (imagenum>0|| imagenum<4|| !Number.isIntiger(+imagenum));
+//     for (i=0; i<imagenum;i++){
+//         displayImg += (i+1)+'...'+ oneofthree[i]+"<br>";
+//         }
+//         document.getElementById("whichimage").innerHTML=displayImg;
+//         document.getElementById("imagenum").innerHTML=imageNum ;
+//     }
